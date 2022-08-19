@@ -9,7 +9,6 @@ public class Vehicle {
 
     public void updateTyre() {
         System.out.println("Меняем покрышку");
-
     }
 
     public void checkEngine() {
