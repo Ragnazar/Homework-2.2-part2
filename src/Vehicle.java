@@ -1,6 +1,6 @@
 public class Vehicle {
-    String modelName;
-    int wheelsCount;
+    private final String modelName;
+    private final int wheelsCount;
 
     Vehicle(String modelName, int wheelsCount) {
         this.modelName = modelName;
