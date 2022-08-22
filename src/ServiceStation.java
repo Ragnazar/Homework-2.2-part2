@@ -27,6 +27,7 @@ public class ServiceStation implements ServiceStationInterface {
         for (int i = 0; i < bicycle.getWheelsCount(); i++) {
             bicycle.updateTyre();
         }
+        bicycle.checkEngine();
         System.out.println();
     }
 }
